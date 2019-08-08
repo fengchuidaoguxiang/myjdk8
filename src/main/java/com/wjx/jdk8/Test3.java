@@ -5,6 +5,7 @@ import com.google.common.collect.Iterators;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 
 public class Test3 {
 
@@ -26,8 +27,11 @@ public class Test3 {
 //        list2.forEach(item -> System.out.println(item));
 
         //方式2
-        list.stream().map(item -> item.toUpperCase()).forEach(item -> System.out.println(item));
-        list.stream().map(String::toUpperCase).forEach(item -> System.out.println(item));
+//        list.stream().map(item -> item.toUpperCase()).forEach(item -> System.out.println(item));
+//        list.stream().map(String::toUpperCase).forEach(item -> System.out.println(item));
+
+        Function<String,String> function = String::toUpperCase;
+        System.out.println(function.getClass().getInterfaces()[0]);
 
 
     }
