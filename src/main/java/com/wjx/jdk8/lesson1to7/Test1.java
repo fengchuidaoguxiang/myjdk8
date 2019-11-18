@@ -1,4 +1,4 @@
-package com.wjx.jdk8;
+package com.wjx.jdk8.lesson1to7;
 
 import java.sql.SQLOutput;
 import java.util.Arrays;

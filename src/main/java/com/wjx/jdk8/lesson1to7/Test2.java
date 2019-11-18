@@ -1,6 +1,4 @@
-package com.wjx.jdk8;
-
-import java.util.zip.DeflaterOutputStream;
+package com.wjx.jdk8.lesson1to7;
 
 public class Test2 {
 

@@ -1,6 +1,5 @@
-package com.wjx.jdk8;
+package com.wjx.jdk8.lesson1to7;
 
-import com.google.common.collect.Iterators;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,8 +29,8 @@ public class Test3 {
 //        list.stream().map(item -> item.toUpperCase()).forEach(item -> System.out.println(item));
 //        list.stream().map(String::toUpperCase).forEach(item -> System.out.println(item));
 
-        Function<String,String> function = String::toUpperCase;
-        System.out.println(function.getClass().getInterfaces()[0]);
+//        Function<String,String> function = String::toUpperCase;
+//        System.out.println(function.getClass().getInterfaces()[0]);
 
 
     }
